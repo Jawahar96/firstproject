@@ -1,25 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+cdimport React from 'react'
+import './Cart.js'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Cart from './Cart.js';
+import './Cart.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+function App(){
+  let pricetag={
+    name:"Unlimited Private project",
+    isEnabled: true,
+  
+    name :"Dedicated Phone Support",
+    isEnabled:true,
+
+    name:"Free Subdomain",
+    isEnabled :true,
+
+  
+  
+    
+  
+  }
+  
+  return(
+    <Cart Price="component container">
+   
+</Cart>
+     
+)}
 
 export default App;
