@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-cdimport React from 'react'
+import React from 'react';
 import './Cart.js'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Cart from './Cart.js';
