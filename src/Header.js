@@ -1,9 +1,6 @@
-import React from "react";
-import './header.css'
-import './Adduser.css'
-
-
 import React, { Component } from 'react'
+
+
 import './App.css';
 import Header from './Header';
 export class App extends Component {
